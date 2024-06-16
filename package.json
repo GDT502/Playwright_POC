@@ -1,0 +1,16 @@
+{
+  "name": "playwright_poc",
+  "version": "1.0.0",
+  "description": "This is an attempt to run PlayWright Testing on the iPad Pro M4 and CodeSpaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.44.1",
+    "playwright": "^1.44.1"
+  }
+}
