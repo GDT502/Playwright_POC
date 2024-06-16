@@ -4,13 +4,17 @@
   "description": "This is an attempt to run PlayWright Testing on the iPad Pro M4 and CodeSpaces",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "cucumber": "cucumber-js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@playwright/test": "^1.44.1",
+    "@playwright/test": "^1.44.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.8.0",
     "playwright": "^1.44.1"
   }
 }
